@@ -1,3 +1,6 @@
+try: import intel_extension_for_pytorch as ipex
+except ModuleNotFoundError: ipex = None
+
 import os
 import argparse
 import base64
